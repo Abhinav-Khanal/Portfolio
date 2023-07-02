@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Century Gothic;
+}
+
+#home{
+    background:linear-gradient(rgba(0,0,0,0.5),#33FF42),url(../art2.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+ul{
+    list-style-type: none;
+    float:right;
+    margin-top: 25px;
+}
+
+ul li{
+    display:inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+     padding:5px 20px;
+    transition: 0.4s linear;
+}
+
+ul li a:hover{
+    background-color: white;
+    color:black;
+}
+
+.banner{
+max-width: 1315px;
+margin: auto;
+}
+
+.logo img{
+    float: left;
+    width: 90px;
+    height:auto;
+}
+
+.title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    text-decoration: none;
+    color: #E7E3E2;
+    font-size: 80px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.button{
+    position:absolute;
+    top: 62%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.button a{
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s linear;
+}
+
+.button a:hover{
+background-color: white;
+color:black;
+}  
+
+/*--About me--*/
+
+#About{
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.title-text{
+    text-align: center;
+    
+}
+
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #009688;
+    font-weight: bold;
+}
+
+#Exp{
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.exp-text{
+    text-align: center;
+}
+
+.exp-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #009688;
+    font-weight: bold;
+}
